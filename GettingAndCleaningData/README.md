@@ -20,7 +20,7 @@ This conforms to the tidy data principals because...
 
 ## Usage
 To recreate the clean data set.
-* Download the data set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+* Download the data set from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 * Extract the contents of the data set to a directory named "working" under your R current working directory.
 * Open and execute the run_analysis.R file in R or RStudio.
 
