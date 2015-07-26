@@ -3,7 +3,7 @@ The raw data is from the "Human Activity Recognition Using Smartphones Dataset" 
 Details of the study design should be referenced from their work...
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-The raw data set can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+Additional details of the study design can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ##Code Book
 **Note: All variable measurements have been normalised over the closed interval [-1, +1] units are therefore not listed.**
