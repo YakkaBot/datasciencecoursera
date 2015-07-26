@@ -1,45 +1,13 @@
 ###############################################################################
 # R Script
 # run_analysis.R
-
-# You should create one R script called run_analysis.R that does the following. 
-# + Merges the training and the test sets to create one data set.
-# + Extracts only the measurements on the mean and standard deviation for each measurement. 
-# + Uses descriptive activity names to name the activities in the data set
-# + Appropriately labels the data set with descriptive variable names. 
-# - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-###############################################################################
-# Over all Plan
-# 
-# Read in the Test Values (Features)
-# Read in the feature names and relabel the test data set with the feature names.
-# Read in the Y_Test data (activity referenceds)
-# Replace the activity data in with the activity labels.
-# Re-label the activity column.
-# 
-# 
-# 
-# 
-# 
-# 
-
-###############################################################################
-# File Description Details.
-
-# REMOVE THIS FROM THE FINAL VERSION
-# REMOVE THIS FROM THE FINAL VERSION
-# Set Working Directory
-setwd("C:/Users/Justin/Documents/R-Working/3-GetCleanData/UCI HAR Dataset")
-# REMOVE THIS FROM THE FINAL VERSION
-# REMOVE THIS FROM THE FINAL VERSION
-
+# version 1.0
 ###############################################################################
 # Common
 ###############################################################################
 
 # Declare and se the root path variable.
-rootPath <- getwd()
-
+rootPath <- file.path(getwd(), "working")
 
 # Read the activity labels.
 activityLabelFile <- file.path(rootPath, "activity_labels.txt")
@@ -55,7 +23,13 @@ colFilterMean <- which(apply(features[2], 1, function(x) any(grepl("mean", x))))
 colFilterStd <- which(apply(features[2], 1, function(x) any(grepl("std", x))))
 colFilter <- sort(append(as.numeric(colFilterMean), as.numeric(colFilterStd)))
 
-featuresFiltered <- features[c(colFilter),]
+featuresShortened <- features[c(colFilter),]
+
+# Replace names with human understandable and syntactically valid names
+featuresShortened2 <- gsub(pattern = "^t",replacement = "Time ", x = featuresShortened$V2)
+featuresShortened3 <- gsub(pattern = "^f",replacement = "Frequency Domain ", x = featuresShortened2)
+featuresFiltered <- make.names(names = featuresShortened3, )
+
 
 ###############################################################################
 # Read and clean Test Data Set
@@ -95,7 +69,6 @@ for (i in seq_along(TestExpFiltered)){
 # Combine the Test columns in to the 'cleanTest' dataset.
 cleanTest <- cbind(TestSubject,TestActivity ,TestExpFiltered)
 
-
 ###############################################################################
 # Read and clean Train Data Set
 ###############################################################################
@@ -134,69 +107,9 @@ for (i in seq_along(TrainExpFiltered)){
 # Combine the Train columns in to the 'cleanTrain' dataset.
 cleanTrain <- cbind(TrainSubject,TrainActivity ,TrainExpFiltered)
 
-
 ###############################################################################
 # Combine Test and Train data sets.
 ###############################################################################
 # Combine Test and Train data sets.
 cleanDataSet <- rbind(cleanTest, cleanTrain)
 
-
-
-
-
-
-
-
-# EOF
-###############################################################################
-###############################################################################
-###############################################################################
-###############################################################################
-###############################################################################
-###############################################################################
-###############################################################################
-###############################################################################
-###############################################################################
-
-# Renaming headers.
-#Works!
-for(i in 1:561)
-{
-  names(test)[i] <- toString(features[i,2])
-}
-
-str(names(test))
-names(test)[3] <-toString(features[3,2])
-test <- head(X_TestExp)
-str(test)
-names(test)
-features[3,2]
-names(test)[1] <- features[1,2]
-names(test)[1] <- features[features[1,2],2]
-names(test)[1] <-toString(features[1,2])
-
-
-
-# Reading Large File.
-
-X_TestFile <- read.fwf(X_TestFilePath,buffersize = 100, widths = rep(c(1,15), times = 561))
-
-# Remove NULL (Odd) columns.
-X_TestClean <- subset(x = X_TestFile, select = seq(from = 2, to = 1122, by = 2))
-
-
-str(X_TestClean)
-
-seq(from = 2, to = 1122, by = 2)
-
-read.fwf(file.path(path, rawX_TestFile), 1)
-
-read.fwf("C:/Users/Justin/Documents/R-Working/3-GetCleanData/UCI HAR Dataset/test/X_test.txt",
-         widths = c(1,15))
-       
-
-rawX <- read.delim("C:/Users/Justin/Documents/R-Working/3-GetCleanData/UCI HAR Dataset/test/X_test.txt",header = FALSE, sep = " ")
-replicate(2, "1,15")
-
-rep(c(1,15), time = 3)
