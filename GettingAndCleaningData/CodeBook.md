@@ -1,4 +1,3 @@
-
 ##Study Design
 The raw data is from the "Human Activity Recognition Using Smartphones Dataset" produced by [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.
 Details of the study design should be referenced from their work...
@@ -9,8 +8,8 @@ The raw data set can be downloaded from [here](https://d396qusza40orc.cloudfront
 ##Code Book
 **Note: All variable measurements have been normalised over the closed interval [-1, +1] units are therefore not listed.**
 
-|Header |Variable | Description | 
-|:--- |:---- |:----:|
+|Variable |Description | 
+|:--- |:---- |
 |Time.BodyAcc.mean...X|Time Body Acceleration mean X Axis|
 |Time.BodyAcc.mean...Y|Time Body Acceleration mean Y Axis|
 |Time.BodyAcc.mean...Z|Time Body Acceleration mean Z Axis|

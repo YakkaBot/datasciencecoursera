@@ -6,9 +6,9 @@ R 3.2.0 or later.
 
 ##Overview
 The run_analysis.R script is written in the R programming language. The script will read, process and clean the "Human Activity Recognition Using Smartphones Dataset" 
-which can be downloaded from here. https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+which can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-##Tidy Data Set.
+##Tidy Data Set
 The output is a clean data set named "cleanDataSet" loaded in R.
 The output is in wide format where each row represents an observed measurement where one subject perform one action with the measurements of multiple sensors recorded.
 The column names have been updated with human understandable terms and are syntactically valid R variable names.
@@ -25,7 +25,8 @@ To recreate the clean data set.
 * Open and execute the run_analysis.R file in R or RStudio.
 
 
-###Transformations
+##Transformations
+The run_analysis.R script performs the following actions.
 
 #### Read common files and create descriptive variable names.
 * Read the activity labels from the "activity_labels.txt" file.
