@@ -10,85 +10,86 @@ Additional details of the study design can be found [here](http://archive.ics.uc
 
 |Variable |Description | 
 |:--- |:---- |
-|Time.BodyAcc.mean...X|Time Body Acceleration mean X Axis|
-|Time.BodyAcc.mean...Y|Time Body Acceleration mean Y Axis|
-|Time.BodyAcc.mean...Z|Time Body Acceleration mean Z Axis|
-|Time.BodyAcc.std...X|Time Body Acceleration standard deviation X Axis|
-|Time.BodyAcc.std...Y|Time Body Acceleration standard deviation Y Axis|
-|Time.BodyAcc.std...Z|Time Body Acceleration standard deviation Z Axis|
-|Time.GravityAcc.mean...X|Time Gravity Acceleration mean X Axis|
-|Time.GravityAcc.mean...Y|Time Gravity Acceleration mean Y Axis|
-|Time.GravityAcc.mean...Z|Time Gravity Acceleration mean Z Axis|
-|Time.GravityAcc.std...X|Time Gravity Acceleration standard deviation X Axis|
-|Time.GravityAcc.std...Y|Time Gravity Acceleration standard deviation Y Axis|
-|Time.GravityAcc.std...Z|Time Gravity Acceleration standard deviation Z Axis|
-|Time.BodyAccJerk.mean...X|Time Body AccelerationJerk mean X Axis|
-|Time.BodyAccJerk.mean...Y|Time Body AccelerationJerk mean Y Axis|
-|Time.BodyAccJerk.mean...Z|Time Body AccelerationJerk mean Z Axis|
-|Time.BodyAccJerk.std...X|Time Body AccelerationJerk standard deviation X Axis|
-|Time.BodyAccJerk.std...Y|Time Body AccelerationJerk standard deviation Y Axis|
-|Time.BodyAccJerk.std...Z|Time Body AccelerationJerk standard deviation Z Axis|
-|Time.BodyGyro.mean...X|Time Body Gyroscope  mean X Axis|
-|Time.BodyGyro.mean...Y|Time Body Gyroscope  mean Y Axis|
-|Time.BodyGyro.mean...Z|Time Body Gyroscope  mean Z Axis|
-|Time.BodyGyro.std...X|Time Body Gyroscope  standard deviation X Axis|
-|Time.BodyGyro.std...Y|Time Body Gyroscope  standard deviation Y Axis|
-|Time.BodyGyro.std...Z|Time Body Gyroscope  standard deviation Z Axis|
-|Time.BodyGyroJerk.mean...X|Time Body Gyroscope Jerk mean X Axis|
-|Time.BodyGyroJerk.mean...Y|Time Body Gyroscope Jerk mean Y Axis|
-|Time.BodyGyroJerk.mean...Z|Time Body Gyroscope Jerk mean Z Axis|
-|Time.BodyGyroJerk.std...X|Time Body Gyroscope Jerk standard deviation X Axis|
-|Time.BodyGyroJerk.std...Y|Time Body Gyroscope Jerk standard deviation Y Axis|
-|Time.BodyGyroJerk.std...Z|Time Body Gyroscope Jerk standard deviation Z Axis|
-|Time.BodyAccMag.mean..|Time Body AccelerationMag mean |
-|Time.BodyAccMag.std..|Time Body AccelerationMag standard deviation |
-|Time.GravityAccMag.mean..|Time Gravity AccelerationMag mean |
-|Time.GravityAccMag.std..|Time Gravity AccelerationMag standard deviation |
-|Time.BodyAccJerkMag.mean..|Time Body AccelerationJerkMag mean |
-|Time.BodyAccJerkMag.std..|Time Body AccelerationJerkMag standard deviation |
-|Time.BodyGyroMag.mean..|Time Body Gyroscope Mag mean |
-|Time.BodyGyroMag.std..|Time Body Gyroscope Mag standard deviation |
-|Time.BodyGyroJerkMag.mean..|Time Body Gyroscope JerkMag mean |
-|Time.BodyGyroJerkMag.std..|Time Body Gyroscope JerkMag standard deviation |
-|Frequency.Domain.BodyAcc.mean...X|Frequency Domain Body Acceleration mean X Axis|
-|Frequency.Domain.BodyAcc.mean...Y|Frequency Domain Body Acceleration mean Y Axis|
-|Frequency.Domain.BodyAcc.mean...Z|Frequency Domain Body Acceleration mean Z Axis|
-|Frequency.Domain.BodyAcc.std...X|Frequency Domain Body Acceleration standard deviation X Axis|
-|Frequency.Domain.BodyAcc.std...Y|Frequency Domain Body Acceleration standard deviation Y Axis|
-|Frequency.Domain.BodyAcc.std...Z|Frequency Domain Body Acceleration standard deviation Z Axis|
-|Frequency.Domain.BodyAcc.meanFreq...X|Frequency Domain Body Acceleration mean Freq X Axis|
-|Frequency.Domain.BodyAcc.meanFreq...Y|Frequency Domain Body Acceleration mean Freq Y Axis|
-|Frequency.Domain.BodyAcc.meanFreq...Z|Frequency Domain Body Acceleration mean Freq Z Axis|
-|Frequency.Domain.BodyAccJerk.mean...X|Frequency Domain Body AccelerationJerk mean X Axis|
-|Frequency.Domain.BodyAccJerk.mean...Y|Frequency Domain Body AccelerationJerk mean Y Axis|
-|Frequency.Domain.BodyAccJerk.mean...Z|Frequency Domain Body AccelerationJerk mean Z Axis|
-|Frequency.Domain.BodyAccJerk.std...X|Frequency Domain Body AccelerationJerk standard deviation X Axis|
-|Frequency.Domain.BodyAccJerk.std...Y|Frequency Domain Body AccelerationJerk standard deviation Y Axis|
-|Frequency.Domain.BodyAccJerk.std...Z|Frequency Domain Body AccelerationJerk standard deviation Z Axis|
-|Frequency.Domain.BodyAccJerk.meanFreq...X|Frequency Domain Body AccelerationJerk mean Freq X Axis|
-|Frequency.Domain.BodyAccJerk.meanFreq...Y|Frequency Domain Body AccelerationJerk mean Freq Y Axis|
-|Frequency.Domain.BodyAccJerk.meanFreq...Z|Frequency Domain Body AccelerationJerk mean Freq Z Axis|
-|Frequency.Domain.BodyGyro.mean...X|Frequency Domain Body Gyroscope  mean X Axis|
-|Frequency.Domain.BodyGyro.mean...Y|Frequency Domain Body Gyroscope  mean Y Axis|
-|Frequency.Domain.BodyGyro.mean...Z|Frequency Domain Body Gyroscope  mean Z Axis|
-|Frequency.Domain.BodyGyro.std...X|Frequency Domain Body Gyroscope  standard deviation X Axis|
-|Frequency.Domain.BodyGyro.std...Y|Frequency Domain Body Gyroscope  standard deviation Y Axis|
-|Frequency.Domain.BodyGyro.std...Z|Frequency Domain Body Gyroscope  standard deviation Z Axis|
-|Frequency.Domain.BodyGyro.meanFreq...X|Frequency Domain Body Gyroscope  mean Freq X Axis|
-|Frequency.Domain.BodyGyro.meanFreq...Y|Frequency Domain Body Gyroscope  mean Freq Y Axis|
-|Frequency.Domain.BodyGyro.meanFreq...Z|Frequency Domain Body Gyroscope  mean Freq Z Axis|
-|Frequency.Domain.BodyAccMag.mean..|Frequency Domain Body AccelerationMag mean |
-|Frequency.Domain.BodyAccMag.std..|Frequency Domain Body AccelerationMag standard deviation |
-|Frequency.Domain.BodyAccMag.meanFreq..|Frequency Domain Body AccelerationMag mean Freq |
-|Frequency.Domain.BodyBodyAccJerkMag.mean..|Frequency Domain BodyBody AccelerationJerkMag mean |
-|Frequency.Domain.BodyBodyAccJerkMag.std..|Frequency Domain BodyBody AccelerationJerkMag standard deviation |
-|Frequency.Domain.BodyBodyAccJerkMag.meanFreq..|Frequency Domain BodyBody AccelerationJerkMag mean Freq |
-|Frequency.Domain.BodyBodyGyroMag.mean..|Frequency Domain BodyBody Gyroscope Mag mean |
-|Frequency.Domain.BodyBodyGyroMag.std..|Frequency Domain BodyBody Gyroscope Mag standard deviation |
-|Frequency.Domain.BodyBodyGyroMag.meanFreq..|Frequency Domain BodyBody Gyroscope Mag mean Freq |
-|Frequency.Domain.BodyBodyGyroJerkMag.mean..|Frequency Domain BodyBody Gyroscope JerkMag mean |
-|Frequency.Domain.BodyBodyGyroJerkMag.std..|Frequency Domain BodyBody Gyroscope JerkMag standard deviation |
-|Frequency.Domain.BodyBodyGyroJerkMag.meanFreq..|Frequency Domain BodyBody Gyroscope JerkMag mean Freq |
+|Time.BodyAcc.mean...X|The time domain measure of the mean of the Body Acceleration  in the X axis|
+|Time.BodyAcc.mean...Y|The time domain measure of the mean of the Body Acceleration  in the Y axis|
+|Time.BodyAcc.mean...Z|The time domain measure of the mean of the Body Acceleration  in the Z axis|
+|Time.BodyAcc.std...X|The time domain measure of the standard deviation of the Body Acceleration  in the X axis|
+|Time.BodyAcc.std...Y|The time domain measure of the standard deviation of the Body Acceleration  in the Y axis|
+|Time.BodyAcc.std...Z|The time domain measure of the standard deviation of the Body Acceleration  in the Z axis|
+|Time.GravityAcc.mean...X|The time domain measure of the standard deviation of the Gravity Acceleration  in the X axis|
+|Time.GravityAcc.mean...Y|The time domain measure of the standard deviation of the Gravity Acceleration  in the Y axis|
+|Time.GravityAcc.mean...Z|The time domain measure of the standard deviation of the Gravity Acceleration  in the Z axis|
+|Time.GravityAcc.std...X|The time domain measure of the standard deviation of the Gravity Acceleration  in the X axis|
+|Time.GravityAcc.std...Y|The time domain measure of the standard deviation of the Gravity Acceleration  in the Y axis|
+|Time.GravityAcc.std...Z|The time domain measure of the standard deviation of the Gravity Acceleration  in the Z axis|
+|Time.BodyAccJerk.mean...X|The time domain measure of the mean of the Body AccelerationJerk  in the X axis|
+|Time.BodyAccJerk.mean...Y|The time domain measure of the mean of the Body AccelerationJerk  in the Y axis|
+|Time.BodyAccJerk.mean...Z|The time domain measure of the mean of the Body AccelerationJerk  in the Z axis|
+|Time.BodyAccJerk.std...X|The time domain measure of the standard deviation of the Body AccelerationJerk  in the X axis|
+|Time.BodyAccJerk.std...Y|The time domain measure of the standard deviation of the Body AccelerationJerk  in the Y axis|
+|Time.BodyAccJerk.std...Z|The time domain measure of the standard deviation of the Body AccelerationJerk  in the Z axis|
+|Time.BodyGyro.mean...X|The time domain measure of the mean of the Body Gyrometer  in the X axis|
+|Time.BodyGyro.mean...Y|The time domain measure of the mean of the Body Gyrometer  in the Y axis|
+|Time.BodyGyro.mean...Z|The time domain measure of the mean of the Body Gyrometer  in the Z axis|
+|Time.BodyGyro.std...X|The time domain measure of the standard deviation of the Body Gyrometer  in the X axis|
+|Time.BodyGyro.std...Y|The time domain measure of the standard deviation of the Body Gyrometer  in the Y axis|
+|Time.BodyGyro.std...Z|The time domain measure of the standard deviation of the Body Gyrometer  in the Z axis|
+|Time.BodyGyroJerk.mean...X|The time domain measure of the mean of the Body GyrometerJerk  in the X axis|
+|Time.BodyGyroJerk.mean...Y|The time domain measure of the mean of the Body GyrometerJerk  in the Y axis|
+|Time.BodyGyroJerk.mean...Z|The time domain measure of the mean of the Body GyrometerJerk  in the Z axis|
+|Time.BodyGyroJerk.std...X|The time domain measure of the standard deviation of the Body GyrometerJerk  in the X axis|
+|Time.BodyGyroJerk.std...Y|The time domain measure of the standard deviation of the Body GyrometerJerk  in the Y axis|
+|Time.BodyGyroJerk.std...Z|The time domain measure of the standard deviation of the Body GyrometerJerk  in the Z axis|
+|Time.BodyAccMag.mean..|The time domain measure of the mean of the Body AccelerationMag|
+|Time.BodyAccMag.std..|The time domain measure of the standard deviation of the Body AccelerationMag|
+|Time.GravityAccMag.mean..|The time domain measure of the mean of the Gravity AccelerationMag|
+|Time.GravityAccMag.std..|The time domain measure of the standard deviation of the Gravity AccelerationMag|
+|Time.BodyAccJerkMag.mean..|The time domain measure of the mean of the Body AccelerationJerkMag|
+|Time.BodyAccJerkMag.std..|The time domain measure of the standard deviation of the Body AccelerationJerkMag|
+|Time.BodyGyroMag.mean..|The time domain measure of the mean of the Body GyrometerMag|
+|Time.BodyGyroMag.std..|The time domain measure of the standard deviation of the Body GyrometerMag|
+|Time.BodyGyroJerkMag.mean..|The time domain measure of the mean of the Body GyrometerJerkMag|
+|Time.BodyGyroJerkMag.std..|The time domain measure of the standard deviation of the Body GyrometerJerkMag|
+|Frequency.Domain.BodyAcc.mean...X|The freqency domain measure of the mean of the Body Acceleration  in the X axis|
+|Frequency.Domain.BodyAcc.mean...Y|The freqency domain measure of the mean of the Body Acceleration  in the Y axis|
+|Frequency.Domain.BodyAcc.mean...Z|The freqency domain measure of the mean of the Body Acceleration  in the Z axis|
+|Frequency.Domain.BodyAcc.std...X|The freqency domain measure of the standard deviation of the Body Acceleration  in the X axis|
+|Frequency.Domain.BodyAcc.std...Y|The freqency domain measure of the standard deviation of the Body Acceleration  in the Y axis|
+|Frequency.Domain.BodyAcc.std...Z|The freqency domain measure of the standard deviation of the Body Acceleration  in the Z axis|
+|Frequency.Domain.BodyAcc.meanFreq...X|The freqency domain measure of the mean of the Body AccelerationFreq  in the X axis|
+|Frequency.Domain.BodyAcc.meanFreq...Y|The freqency domain measure of the mean of the Body AccelerationFreq  in the Y axis|
+|Frequency.Domain.BodyAcc.meanFreq...Z|The freqency domain measure of the mean of the Body AccelerationFreq  in the Z axis|
+|Frequency.Domain.BodyAccJerk.mean...X|The freqency domain measure of the mean of the Body AccelerationJerk  in the X axis|
+|Frequency.Domain.BodyAccJerk.mean...Y|The freqency domain measure of the mean of the Body AccelerationJerk  in the Y axis|
+|Frequency.Domain.BodyAccJerk.mean...Z|The freqency domain measure of the mean of the Body AccelerationJerk  in the Z axis|
+|Frequency.Domain.BodyAccJerk.std...X|The freqency domain measure of the standard deviation of the Body AccelerationJerk  in the X axis|
+|Frequency.Domain.BodyAccJerk.std...Y|The freqency domain measure of the standard deviation of the Body AccelerationJerk  in the Y axis|
+|Frequency.Domain.BodyAccJerk.std...Z|The freqency domain measure of the standard deviation of the Body AccelerationJerk  in the Z axis|
+|Frequency.Domain.BodyAccJerk.meanFreq...X|The freqency domain measure of the mean of the Body AccelerationJerkFreq  in the X axis|
+|Frequency.Domain.BodyAccJerk.meanFreq...Y|The freqency domain measure of the mean of the Body AccelerationJerkFreq  in the Y axis|
+|Frequency.Domain.BodyAccJerk.meanFreq...Z|The freqency domain measure of the mean of the Body AccelerationJerkFreq  in the Z axis|
+|Frequency.Domain.BodyGyro.mean...X|The freqency domain measure of the mean of the Body Gyrometer  in the X axis|
+|Frequency.Domain.BodyGyro.mean...Y|The freqency domain measure of the mean of the Body Gyrometer  in the Y axis|
+|Frequency.Domain.BodyGyro.mean...Z|The freqency domain measure of the mean of the Body Gyrometer  in the Z axis|
+|Frequency.Domain.BodyGyro.std...X|The freqency domain measure of the standard deviation of the Body Gyrometer  in the X axis|
+|Frequency.Domain.BodyGyro.std...Y|The freqency domain measure of the standard deviation of the Body Gyrometer  in the Y axis|
+|Frequency.Domain.BodyGyro.std...Z|The freqency domain measure of the standard deviation of the Body Gyrometer  in the Z axis|
+|Frequency.Domain.BodyGyro.meanFreq...X|The freqency domain measure of the mean frequency of the Body GyrometerFreq  in the X axis|
+|Frequency.Domain.BodyGyro.meanFreq...Y|The freqency domain measure of the mean frequency of the Body GyrometerFreq  in the Y axis|
+|Frequency.Domain.BodyGyro.meanFreq...Z|The freqency domain measure of the mean frequency of the Body GyrometerFreq  in the Z axis|
+|Frequency.Domain.BodyAccMag.mean..|The freqency domain measure of the mean of the Body AccelerationMag|
+|Frequency.Domain.BodyAccMag.std..|The freqency domain measure of the standard deviation of the Body AccelerationMag|
+|Frequency.Domain.BodyAccMag.meanFreq..|The freqency domain measure of the mean frequency of the Body AccelerationMagFreq|
+|Frequency.Domain.BodyBodyAccJerkMag.mean..|The freqency domain measure of the mean of the BodyBody AccelerationJerkMag|
+|Frequency.Domain.BodyBodyAccJerkMag.std..|The freqency domain measure of the standard deviation of the BodyBody AccelerationJerkMag|
+|Frequency.Domain.BodyBodyAccJerkMag.meanFreq..|The freqency domain measure of the mean frequency of the BodyBody AccelerationJerkMagFreq|
+|Frequency.Domain.BodyBodyGyroMag.mean..|The freqency domain measure of the mean of the BodyBody GyrometerMag|
+|Frequency.Domain.BodyBodyGyroMag.std..|The freqency domain measure of the standard deviation of the BodyBody GyrometerMag|
+|Frequency.Domain.BodyBodyGyroMag.meanFreq..|The freqency domain measure of the mean frequency of the BodyBody GyrometerMagFreq|
+|Frequency.Domain.BodyBodyGyroJerkMag.mean..|The freqency domain measure of the mean of the BodyBody GyrometerJerkMag|
+|Frequency.Domain.BodyBodyGyroJerkMag.std..|The freqency domain measure of the standard deviation of the BodyBody GyrometerJerkMag|
+|Frequency.Domain.BodyBodyGyroJerkMag.meanFreq..|The freqency domain measure of the mean frequency of the BodyBody GyrometerJerkMagFreq|
+
 
 ##Transformations
 The run_analysis.R script performs the following actions.
